@@ -60,7 +60,6 @@ working_number = beginning_year.to_i
 until (working_number == (ending_year.to_i + 1)) do
 	if ((working_number % 4) == 0) and ((working_number % 100) != 0) or ((working_number % 400) == 0)
 		puts working_number.to_s + ' is a leap year'
-	else
 	end
 	working_number = working_number.to_i + 1
 end
